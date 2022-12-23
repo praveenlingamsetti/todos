@@ -1,0 +1,25 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5dbea3;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.delete-icon {
+  height: 7vh;
+  width: 6vw;
+}
+.done-button {
+  background-color: #33b249;
+  height: 6vh;
+  width: 5vw;
+  padding: 15px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+.button-items {
+  display: flex;
+  align-items: center;
+}

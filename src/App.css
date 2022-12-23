@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.todo-bg {
+  background-color: antiquewhite;
+  height: 100vh;
+  background-size: cover;
+}
+.todo-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todo-elements {
+  margin-left: 15vh;
+}
+.input-element {
+  width: 60vw;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 20px;
+}
+.add-button {
+  background-color: blueviolet;
+  height: 4vh;
+  width: 5vw;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.todo-container {
+  background-color: white;
+  width: 80vw;
+  margin-left: 15vh;
+}
+.list-items {
+  list-style-type: none;
+}
+
+.done-container {
+  margin-left: 15vh;
+}
